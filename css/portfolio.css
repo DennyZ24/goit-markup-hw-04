@@ -1,0 +1,97 @@
+.container.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.nav-link.link-now {
+  color: var(--brand-color);
+}
+
+/* Фильтры */
+.button-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+.button-list .item:not(:nth-child(5)) {
+  margin-right: 8px;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+
+  background-color: #f5f4fa;
+  border-style: none;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--brand-color);
+  border-style: none;
+  outline: none;
+}
+
+/* Сетка продуктов */
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0px;
+  margin: 0px;
+  margin-right: calc(-1 * var(--card-gap));
+  margin-bottom: calc(-1 * var(--card-gap));
+}
+
+.projects-list .item {
+  flex-basis: calc(100% / 3 - var(--card-gap));
+  margin-right: var(--card-gap);
+  margin-bottom: var(--card-gap);
+
+  border: 1px solid #eeeeee;
+}
+
+.stand-text {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
+.projects-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 4px;
+
+  color: var(--second-color);
+}
+
+.projects-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.9;
+
+  margin: 0px;
+  padding: 0px;
+}
