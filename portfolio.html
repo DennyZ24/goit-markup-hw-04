@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="page-header">
         <div class="container header">
             <nav>
                 <a href="./index.html" class="logo">
@@ -37,11 +37,21 @@
             </nav>
             <ul class="mail-and-tel">
                 <li class="item">
-                    <a href="mailto:info@devstudio.com" class="link-mailtel">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="link-mailtel">
+                        <svg class="mail-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
         
                 <li class="item">
-                    <a href="tel:+380961111111" class="link-mailtel">+38 096 111 11 11</a>
+                    <a href="tel:+380961111111" class="link-mailtel">
+                        <svg class="mail-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -49,7 +59,7 @@
     <main>
         
         <section class="section">
-           <div class="container portfolio">
+           <div class="container ">
                <!-- Фильтры -->
                 <h2 class="visually-hidden">Кнопки-фильтры</h2>
                 <ul class="button-list">
@@ -157,22 +167,60 @@
     </main>
 
     <footer class="footer">
-       <div class="container">
-            <a href="./index.html" class="logo-foot">
-                <span class="logo-web">Web</span>Studio
-            </a>
-            <address>
-                <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul class="foot-list">
-                    <li class="item">
-                        <a href="mailto:info@example.com" class="foot-mailtel"> info@example.com</a>
+        <div class="container flex">
+            <div class="first-box">
+                <a href="./index.html" class="logo-foot">
+                    <span class="logo-web">Web</span>Studio
+                </a>
+                <address>
+                    <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="foot-list">
+                        <li class="item">
+                            <a href="mailto:info@example.com" class="foot-mailtel"> info@example.com</a>
+                        </li>
+                        <li class="item">
+                            <a href="tel:+380991111111" class="foot-mailtel"> +38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="second-box">
+                <h2 class="join-title">присоединяйтесь</h2>
+                <ul class="join-list">
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="item">
-                        <a href="tel:+380991111111" class="foot-mailtel"> +38 099 111 11 11</a>
+            
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+            
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+            
+                    <li class="join-item">
+                        <a href="" class="join-link">
+                            <svg class="join-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
-       </div>
+            </div>
+        </div>
     </footer>
     </body>
     
